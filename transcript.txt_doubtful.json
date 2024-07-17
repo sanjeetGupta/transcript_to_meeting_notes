@@ -1,0 +1,97 @@
+{
+    "RELATIONSHIP_BUILDING_FACTS": [],
+    "GOALS": [
+        {
+            "generated": "Mr. Thompson wants to establish a university fund for his daughter.",
+            "updated": "Mr. Thompson plans to support his daughter financially for university but has not yet established a dedicated university fund for her.",
+            "is_true": 0,
+            "is_relevant": 1
+        },
+        {
+            "generated": "Mr. Thompson aims to build a strong emergency fund.",
+            "updated": "Mr. Thompson has not explicitly aimed to build a strong emergency fund but acknowledges its importance.",
+            "is_true": 0,
+            "is_relevant": 1
+        },
+        {
+            "generated": "Mr. Thompson wants to pass on his wealth to his family efficiently.",
+            "updated": "Mr. Thompson has not given much thought to inheritance tax planning but acknowledges the need to learn more about it.",
+            "is_true": 0,
+            "is_relevant": 1
+        }
+    ],
+    "RETIREMENT_PLANS": [],
+    "ASSETS": [],
+    "INCOME": [
+        {
+            "generated": "Mr. Thompson believes he can manage up to £2,000 a month in mortgage repayments without significantly impacting his lifestyle.",
+            "updated": "Mr. Thompson believes he can manage up to £2,000 a month in mortgage repayments without significantly impacting his lifestyle.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "Mr. Thompson believes his current income will allow him to manage increased monthly expenses, including mortgage payments and maintenance costs.",
+            "updated": "Mr. Thompson believes his current income will allow him to manage increased monthly expenses, including mortgage payments and maintenance costs.",
+            "is_true": 1,
+            "is_relevant": 0
+        }
+    ],
+    "EXPENDITURES": [
+        {
+            "generated": "Mr. Thompson thinks he can manage up to £2,000 a month in mortgage repayments without significantly impacting his lifestyle.",
+            "updated": "Mr. Thompson thinks he can manage up to £2,000 a month in mortgage repayments without significantly impacting his lifestyle.",
+            "is_true": 1,
+            "is_relevant": 0
+        }
+    ],
+    "PERSONAL_CIRCUMSTANCES": [],
+    "NEXT_STEPS_DISCUSSED": [
+        {
+            "generated": "Starting a university fund for Mr. Thompson's daughter could be beneficial to spread the cost over a longer period.",
+            "updated": "Starting a university fund for Mr. Thompson's daughter could be beneficial to spread the cost over a longer period.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "The IFA suggested diversifying Mr. Thompson's retirement savings.",
+            "updated": "The IFA suggested diversifying Mr. Thompson's retirement savings.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "The IFA recommended building a stronger emergency fund and diversifying income sources due to uncertainty at work.",
+            "updated": "The IFA recommended building a stronger emergency fund and diversifying income sources due to uncertainty at work.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "The IFA suggested considering income protection insurance.",
+            "updated": "The IFA suggested considering income protection insurance.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "The IFA proposed discussing inheritance tax strategies, such as gifting assets during Mr. Thompson's lifetime or setting up a trust.",
+            "updated": "The IFA proposed discussing inheritance tax strategies, such as gifting assets during Mr. Thompson's lifetime or setting up a trust.",
+            "is_true": 1,
+            "is_relevant": 0
+        },
+        {
+            "generated": "The IFA suggested discussing inheritance tax planning in a future meeting.",
+            "updated": "The IFA suggested delving deeper into inheritance tax planning in a future meeting.",
+            "is_true": 1,
+            "is_relevant": 0
+        }
+    ],
+    "SOFT_FACTS_DISCUSSED": [],
+    "CLIENT_QUERIES_CONCERNS": [],
+    "CHALLENGES": [],
+    "RISK_TOLERANCE": [],
+    "INSURANCE_NEEDS": [],
+    "FUTURE_PLANS": [],
+    "TAX_PLANNING": [],
+    "LIABILITY": [],
+    "CASHFLOW_PLANNING": [],
+    "SUITABILITY": [],
+    "FEES": []
+}

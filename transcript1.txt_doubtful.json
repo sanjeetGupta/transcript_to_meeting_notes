@@ -1,0 +1,22 @@
+{
+    "RELATIONSHIP_BUILDING_FACTS": [],
+    "GOALS": [],
+    "RETIREMENT_PLANS": [],
+    "ASSETS": [],
+    "INCOME": [
+        {
+            "generated": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+            "updated": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+            "is_true": 1,
+            "is_relevant": 0,
+            "explanation": "While the information about Mrs. Davis's savings is accurate, it pertains to her savings habits rather than her actual income from different sources."
+        }
+    ],
+    "EXPENDITURES": [],
+    "PERSONAL_CIRCUMSTANCES": [],
+    "NEXT_STEPS_DISCUSSED": [],
+    "RISK_TOLERANCE": [],
+    "INSURANCE_NEEDS": [],
+    "TAX_PLANNING": [],
+    "LIABILITY": []
+}
