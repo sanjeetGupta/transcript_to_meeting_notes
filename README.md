@@ -11,9 +11,14 @@ Ensure Python 3.x is installed on your system.
 pip install -r requirements.txt
 ```
 
+## Create a .env file
+```txt
+OPENAI_API_KEY = <openai api key here>
+```
+
 ## Start program
 ```commandline
-python main.py <filename>
+python main.py <transcript txt filename>
 ```
 
 ## Evaluation Method
