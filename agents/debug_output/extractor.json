@@ -1,0 +1,203 @@
+{
+    "RELATIONSHIP_BUILDING_FACTS": [
+        {
+            "sentence": "Mrs. Davis is a senior manager at a tech company.",
+            "references": [
+                7
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis wants to help her grandchildren with their education expenses.",
+            "references": [
+                15
+            ]
+        }
+    ],
+    "GOALS": [
+        {
+            "sentence": "Mrs. Davis wants to retire in about 10 years and have enough saved to live comfortably.",
+            "references": [
+                3
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis aims to have around £600,000 in savings by the time she retires.",
+            "references": [
+                5
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis would like to travel more once she retires and maybe purchase a small vacation home in Spain.",
+            "references": [
+                15
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis wants to ensure she can help her grandchildren with their education expenses.",
+            "references": [
+                15
+            ]
+        }
+    ],
+    "RETIREMENT_PLANS": [
+        {
+            "sentence": "Mrs. Davis has £250,000 saved for retirement.",
+            "references": [
+                5
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis contributes to a pension.",
+            "references": [
+                25
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis plans to keep her rental property as part of her retirement income.",
+            "references": [
+                29
+            ]
+        }
+    ],
+    "ASSETS": [
+        {
+            "sentence": "Mrs. Davis has £250,000 saved for retirement.",
+            "references": [
+                5
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis has a rental property that brings in about £1,000 per month after expenses.",
+            "references": [
+                9
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis invests in a few mutual funds.",
+            "references": [
+                9
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis has about £15,000 set aside in an emergency fund.",
+            "references": [
+                17
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis has a cash ISA where she saves regularly.",
+            "references": [
+                25
+            ]
+        }
+    ],
+    "INCOME": [
+        {
+            "sentence": "Mrs. Davis earns around £8,000 per month before taxes as a senior manager at a tech company.",
+            "references": [
+                7
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+            "references": [
+                7
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis's rental property brings in about £1,000 per month after expenses.",
+            "references": [
+                9
+            ]
+        }
+    ],
+    "EXPENDITURES": [
+        {
+            "sentence": "Mrs. Davis spends around £4,500 a month on her mortgage, bills, and living expenses.",
+            "references": [
+                11
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis pays about £200 a month towards her student loan.",
+            "references": [
+                13
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "references": [
+                13
+            ]
+        }
+    ],
+    "PERSONAL_CIRCUMSTANCES": [
+        {
+            "sentence": "Mrs. Davis does not anticipate any significant changes in her circumstances and expects to continue working and saving at her current rate until she retires.",
+            "references": [
+                19
+            ]
+        }
+    ],
+    "NEXT_STEPS_DISCUSSED": [
+        {
+            "sentence": "Michael will start working on a comprehensive financial plan and get back to Mrs. Davis soon with some detailed steps.",
+            "references": [
+                34
+            ]
+        }
+    ],
+    "DOCUMENTS_NEEDED": [],
+    "SOFT_FACTS_DISCUSSED": [],
+    "CLIENT_QUERIES_CONCERNS": [],
+    "QUESTIONS": [],
+    "CHALLENGES": [],
+    "FUTURE_PLANS": [],
+    "RISK_TOLERANCE": [
+        {
+            "sentence": "Mrs. Davis is fairly conservative with her investments but is open to considering slightly riskier investments for better returns.",
+            "references": [
+                21
+            ]
+        }
+    ],
+    "CASHFLOW_PLANNING": [],
+    "INSURANCE_NEEDS": [
+        {
+            "sentence": "Mrs. Davis has life insurance but no specific income protection.",
+            "references": [
+                23
+            ]
+        }
+    ],
+    "TAX_PLANNING": [
+        {
+            "sentence": "Mrs. Davis contributes to a pension and has a cash ISA where she saves regularly.",
+            "references": [
+                25
+            ]
+        },
+        {
+            "sentence": "Michael mentioned exploring inheritance tax planning strategies such as setting up trusts or gifting assets during Mrs. Davis's lifetime.",
+            "references": [
+                28
+            ]
+        }
+    ],
+    "LIABILITY": [
+        {
+            "sentence": "Mrs. Davis has a student loan that she is still paying off, which is about £200 a month.",
+            "references": [
+                13
+            ]
+        },
+        {
+            "sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "references": [
+                13
+            ]
+        }
+    ],
+    "SUITABILITY": [],
+    "FEES": []
+}

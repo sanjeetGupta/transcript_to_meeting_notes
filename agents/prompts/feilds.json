@@ -1,0 +1,23 @@
+{
+  "RELATIONSHIP_BUILDING_FACTS": "Information about the person's interests, hobbies, desires, or fears, that can enable building a strong and personal relationship. Includes names of family members, pets etc.",
+  "GOALS": "Client's short-term and long-term goals and aspirations which a financial planner can help them achieve.",
+  "RETIREMENT_PLANS": "Info related to pensions, savings, investment strategies, and what the client wants their retirement to be like and wills.",
+  "ASSETS": "Record the client’s assets, including properties.",
+  "INCOME": "Record the precise income that the client has from different sources.",
+  "EXPENDITURES": "Track how the client spends their money, categorizing these into regular and occasional expenses.",
+  "PERSONAL_CIRCUMSTANCES": "Record events in the client’s life that are upcoming and will affect their finances, including holidays, events, travel, pregnancy etc.",
+  "NEXT_STEPS_DISCUSSED": "Outline the immediate next steps that the adviser will take to ensure the best client experience and rapid response to queries.",
+  "DOCUMENTS_NEEDED": "List any documents or information needed from the client.",
+  "SOFT_FACTS_DISCUSSED": "Qualitative information that gives the adviser knowledge about the client's life, motivations, goals, worries, concerns, etc.",
+  "CLIENT_QUERIES_CONCERNS": "Specific queries and concerns raised by the client.",
+  "QUESTIONS": "Make a list of the questions that were asked by the client.",
+  "CHALLENGES": "Detail issues or challenges that the client is facing in their life that impacts their financial journey.",
+  "FUTURE_PLANS": "Note down any plans that the client has in the future, and detail how they impact financial decisions.",
+  "RISK_TOLERANCE": "Information that shows the risk tolerance of the client and how they process situations that involve risk, including circumstances affecting risk tolerance.",
+  "CASHFLOW_PLANNING": "Discussions about cash flow planning, including assumptions like inflation rates, investment growth rates, etc., and the client's reactions.",
+  "INSURANCE_NEEDS": "Note down the client's insurance coverage and identify gaps in their coverage.",
+  "TAX_PLANNING": "Ensure the client has considered all tax planning approaches, including trusts, inheritance tax, income taxes, etc.",
+  "LIABILITY": "Record the client’s liabilities, including loans, mortgages, credit card debts.",
+  "SUITABILITY": "Discussions around whether the client's current financial plans are suitable given their current circumstances.",
+  "FEES": "Capture conversation about initial, ongoing, and one-off fees, as well as any client questions about fees."
+}

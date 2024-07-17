@@ -1,0 +1,602 @@
+{
+    "RELATIONSHIP_BUILDING_FACTS": [
+        {
+            "sentence": "Mrs. Davis is a senior manager at a tech company and wants to help her grandchildren with their education expenses.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis is a senior manager at a tech company.",
+                    "references": [
+                        7
+                    ]
+                },
+                {
+                    "sentence": "Mrs. Davis wants to help her grandchildren with their education expenses.",
+                    "references": [
+                        15
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis is a senior manager at a tech company and wants to help her grandchildren with their education expenses.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 5,
+                    "end": 9
+                },
+                {
+                    "start": 13,
+                    "end": 17
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n\n\n\nSnippet 1:\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n**Mrs. Davis:** I’d like to travel more once I retire, maybe even purchase a small vacation home in Spain. Also, I want to ensure I can help my grandchildren with their education expenses.\n**IFA:** Those are wonderful goals. We’ll need to factor in those future expenses into your retirement planning. Speaking of which, how are you preparing for potential financial shocks or emergencies?\n\n\n"
+        }
+    ],
+    "GOALS": [
+        {
+            "sentence": "Mrs. Davis wants to retire in about 10 years and have around £600,000 in savings to live comfortably.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis wants to retire in about 10 years and have enough saved to live comfortably.",
+                    "references": [
+                        3
+                    ]
+                },
+                {
+                    "sentence": "Mrs. Davis aims to have around £600,000 in savings by the time she retires.",
+                    "references": [
+                        5
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis wants to retire in about 10 years and have around £600,000 in savings to live comfortably.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 1,
+                    "end": 7
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Good afternoon, Michael. Yes, that sounds like a good start.\n**IFA:** Wonderful. Do you have any immediate financial goals you’d like to focus on?\n**Mrs. Davis:** Well, I want to plan for my retirement. I’m hoping to retire in about 10 years, and I want to ensure I have enough saved to live comfortably.\n**IFA:** Retirement planning is crucial. We'll need to evaluate your current savings, your expected retirement expenses, and any other sources of income you might have. Do you have a specific retirement savings target in mind?\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis would like to travel more once she retires and maybe purchase a small vacation home in Spain.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis would like to travel more once she retires and maybe purchase a small vacation home in Spain.",
+                    "references": [
+                        15
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis would like to travel more once she retires and maybe purchase a small vacation home in Spain.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 13,
+                    "end": 17
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n**Mrs. Davis:** I’d like to travel more once I retire, maybe even purchase a small vacation home in Spain. Also, I want to ensure I can help my grandchildren with their education expenses.\n**IFA:** Those are wonderful goals. We’ll need to factor in those future expenses into your retirement planning. Speaking of which, how are you preparing for potential financial shocks or emergencies?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis wants to ensure she can help her grandchildren with their education expenses.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis wants to ensure she can help her grandchildren with their education expenses.",
+                    "references": [
+                        15
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis wants to ensure she can help her grandchildren with their education expenses.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 13,
+                    "end": 17
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n**Mrs. Davis:** I’d like to travel more once I retire, maybe even purchase a small vacation home in Spain. Also, I want to ensure I can help my grandchildren with their education expenses.\n**IFA:** Those are wonderful goals. We’ll need to factor in those future expenses into your retirement planning. Speaking of which, how are you preparing for potential financial shocks or emergencies?\n\n\n"
+        }
+    ],
+    "RETIREMENT_PLANS": [
+        {
+            "sentence": "Mrs. Davis has £250,000 saved for retirement and contributes to a pension.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has £250,000 saved for retirement.",
+                    "references": [
+                        5
+                    ]
+                },
+                {
+                    "sentence": "Mrs. Davis contributes to a pension.",
+                    "references": [
+                        25
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has £250,000 saved for retirement and contributes to a pension.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 3,
+                    "end": 7
+                },
+                {
+                    "start": 23,
+                    "end": 27
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Well, I want to plan for my retirement. I’m hoping to retire in about 10 years, and I want to ensure I have enough saved to live comfortably.\n**IFA:** Retirement planning is crucial. We'll need to evaluate your current savings, your expected retirement expenses, and any other sources of income you might have. Do you have a specific retirement savings target in mind?\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n\n\n\nSnippet 1:\n**Mrs. Davis:** I have life insurance but no specific income protection.\n**IFA:** Income protection can be valuable in case you’re unable to work due to illness or injury. It’s worth considering, especially as you approach retirement. Let’s also discuss tax planning. Are you utilizing tax-advantaged accounts like ISAs or pensions?\n**Mrs. Davis:** I contribute to a pension and have a cash ISA where I save regularly.\n**IFA:** That’s excellent. Tax-efficient savings and investment vehicles can provide significant long-term benefits. Have you thought about inheritance tax planning to ensure your wealth is efficiently passed on to your family?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis plans to keep her rental property as part of her retirement income.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis plans to keep her rental property as part of her retirement income.",
+                    "references": [
+                        29
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis plans to keep her rental property as part of her retirement income.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 27,
+                    "end": 31
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I haven’t given it much thought. I assumed it would just go to my children and grandchildren without much hassle.\n**IFA:** Inheritance tax can significantly impact what your beneficiaries receive. We can explore strategies to mitigate this, such as setting up trusts or gifting assets during your lifetime. Finally, let’s talk about your rental property. Do you plan to keep it as part of your retirement income?\n**Mrs. Davis:** Yes, I plan to keep it. It’s been a good source of income, and I think it will continue to be.\n**IFA:** That’s a good plan, but remember to account for property management and maintenance costs. We should also periodically review your investment portfolio to ensure it aligns with your goals. Have you reviewed your investments recently?\n\n\n"
+        }
+    ],
+    "ASSETS": [
+        {
+            "sentence": "Mrs. Davis has £250,000 saved for retirement.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has £250,000 saved for retirement.",
+                    "references": [
+                        5
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has £250,000 saved for retirement.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Well, I want to plan for my retirement. I’m hoping to retire in about 10 years, and I want to ensure I have enough saved to live comfortably.\n**IFA:** Retirement planning is crucial. We'll need to evaluate your current savings, your expected retirement expenses, and any other sources of income you might have. Do you have a specific retirement savings target in mind?\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis has a rental property that brings in about £1,000 per month after expenses.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has a rental property that brings in about £1,000 per month after expenses.",
+                    "references": [
+                        9
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has a rental property that brings in about £1,000 per month after expenses.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 7,
+                    "end": 11
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n**Mrs. Davis:** I have a rental property that brings in about £1,000 per month after expenses, and I invest in a few mutual funds.\n**IFA:** Excellent, it’s important to have multiple income streams. Now, let’s talk about your monthly expenses. Could you provide an estimate of your regular expenditures?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis invests in a few mutual funds.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis invests in a few mutual funds.",
+                    "references": [
+                        9
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis invests in a few mutual funds.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 7,
+                    "end": 11
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n**Mrs. Davis:** I have a rental property that brings in about £1,000 per month after expenses, and I invest in a few mutual funds.\n**IFA:** Excellent, it’s important to have multiple income streams. Now, let’s talk about your monthly expenses. Could you provide an estimate of your regular expenditures?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis has about £15,000 set aside in an emergency fund.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has about £15,000 set aside in an emergency fund.",
+                    "references": [
+                        17
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has about £15,000 set aside in an emergency fund.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 15,
+                    "end": 19
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I’d like to travel more once I retire, maybe even purchase a small vacation home in Spain. Also, I want to ensure I can help my grandchildren with their education expenses.\n**IFA:** Those are wonderful goals. We’ll need to factor in those future expenses into your retirement planning. Speaking of which, how are you preparing for potential financial shocks or emergencies?\n**Mrs. Davis:** I have about £15,000 set aside in an emergency fund.\n**IFA:** That’s a good start, but generally, it's advisable to have around 3-6 months of living expenses saved up. This could help cover unexpected situations like job loss or medical emergencies. Do you anticipate any significant changes in your circumstances, like major expenses or changes in income?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis has a cash ISA where she saves regularly.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has a cash ISA where she saves regularly.",
+                    "references": [
+                        25
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has a cash ISA where she saves regularly.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 23,
+                    "end": 27
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have life insurance but no specific income protection.\n**IFA:** Income protection can be valuable in case you’re unable to work due to illness or injury. It’s worth considering, especially as you approach retirement. Let’s also discuss tax planning. Are you utilizing tax-advantaged accounts like ISAs or pensions?\n**Mrs. Davis:** I contribute to a pension and have a cash ISA where I save regularly.\n**IFA:** That’s excellent. Tax-efficient savings and investment vehicles can provide significant long-term benefits. Have you thought about inheritance tax planning to ensure your wealth is efficiently passed on to your family?\n\n\n"
+        }
+    ],
+    "INCOME": [
+        {
+            "sentence": "Mrs. Davis earns around £8,000 per month before taxes as a senior manager at a tech company.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis earns around £8,000 per month before taxes as a senior manager at a tech company.",
+                    "references": [
+                        7
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis earns around £8,000 per month before taxes as a senior manager at a tech company.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+                    "references": [
+                        7
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 0,
+            "truth_updated_sentence": "Mrs. Davis saves about £1,500 each month towards her retirement.",
+            "explanation": "While the information about Mrs. Davis's savings is accurate, it pertains to her savings habits rather than her actual income from different sources.",
+            "citation_intervals": [
+                {
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I’ve been aiming for around £600,000 in savings by the time I retire. Right now, I have about £250,000 saved.\n**IFA:** That’s a solid amount saved so far, Mrs. Davis. In addition to your retirement savings, we should consider your pension schemes, potential state pensions, and any investments. What is your current income, and how much do you save each month?\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis's rental property brings in about £1,000 per month after expenses.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis's rental property brings in about £1,000 per month after expenses.",
+                    "references": [
+                        9
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis's rental property brings in about £1,000 per month after expenses.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 7,
+                    "end": 11
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I work as a senior manager at a tech company and earn around £8,000 per month before taxes. I try to save about £1,500 each month towards my retirement.\n**IFA:** That’s a good savings rate. Do you have any other significant sources of income or investments, such as rental properties or stocks?\n**Mrs. Davis:** I have a rental property that brings in about £1,000 per month after expenses, and I invest in a few mutual funds.\n**IFA:** Excellent, it’s important to have multiple income streams. Now, let’s talk about your monthly expenses. Could you provide an estimate of your regular expenditures?\n\n\n"
+        }
+    ],
+    "EXPENDITURES": [
+        {
+            "sentence": "Mrs. Davis spends around £4,500 a month on her mortgage, bills, and living expenses.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis spends around £4,500 a month on her mortgage, bills, and living expenses.",
+                    "references": [
+                        11
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis spends around £4,500 a month on her mortgage, bills, and living expenses.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 9,
+                    "end": 13
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have a rental property that brings in about £1,000 per month after expenses, and I invest in a few mutual funds.\n**IFA:** Excellent, it’s important to have multiple income streams. Now, let’s talk about your monthly expenses. Could you provide an estimate of your regular expenditures?\n**Mrs. Davis:** Including the mortgage on my home, bills, and living expenses, I spend around £4,500 a month.\n**IFA:** And do you have any outstanding debts, such as loans or credit cards?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis pays about £200 a month towards her student loan.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis pays about £200 a month towards her student loan.",
+                    "references": [
+                        13
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis pays about £200 a month towards her student loan.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Including the mortgage on my home, bills, and living expenses, I spend around £4,500 a month.\n**IFA:** And do you have any outstanding debts, such as loans or credit cards?\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis pays off her credit card in full each month.",
+                    "references": [
+                        13
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Including the mortgage on my home, bills, and living expenses, I spend around £4,500 a month.\n**IFA:** And do you have any outstanding debts, such as loans or credit cards?\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n\n\n"
+        }
+    ],
+    "PERSONAL_CIRCUMSTANCES": [
+        {
+            "sentence": "Mrs. Davis does not anticipate any significant changes in her circumstances and expects to continue working and saving at her current rate until she retires.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis does not anticipate any significant changes in her circumstances and expects to continue working and saving at her current rate until she retires.",
+                    "references": [
+                        19
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis does not anticipate any significant changes in her circumstances and expects to continue working and saving at her current rate until she retires.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 17,
+                    "end": 21
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have about £15,000 set aside in an emergency fund.\n**IFA:** That’s a good start, but generally, it's advisable to have around 3-6 months of living expenses saved up. This could help cover unexpected situations like job loss or medical emergencies. Do you anticipate any significant changes in your circumstances, like major expenses or changes in income?\n**Mrs. Davis:** Not really. I expect to continue working and saving at my current rate until I retire.\n**IFA:** It’s good to have stability. Now, let’s discuss your risk tolerance. Are you more inclined towards safer investments, or are you comfortable with higher risks for potentially greater returns?\n\n\n"
+        }
+    ],
+    "NEXT_STEPS_DISCUSSED": [
+        {
+            "sentence": "Michael will start working on a comprehensive financial plan and get back to Mrs. Davis soon with some detailed steps.",
+            "raw": [
+                {
+                    "sentence": "Michael will start working on a comprehensive financial plan and get back to Mrs. Davis soon with some detailed steps.",
+                    "references": [
+                        34
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Michael will start working on a comprehensive financial plan and get back to Mrs. Davis soon with some detailed steps.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 32,
+                    "end": 36
+                }
+            ],
+            "citation": "\nSnippet 0:\n**IFA:** Regular reviews are important to ensure your investments are performing as expected and to adjust your strategy if needed. We can help with that.\n**Mrs. Davis:** I appreciate that, Michael. This has been very helpful.\n**IFA:** I’m glad to hear that, Mrs. Davis. We’ll start working on a comprehensive financial plan and get back to you soon with some detailed steps. Remember, financial planning is an ongoing process, and we’re here to support you every step of the way.\n**Mrs. Davis:** Thank you, Michael. I feel more confident about my financial future now.\n\n\n"
+        }
+    ],
+    "RISK_TOLERANCE": [
+        {
+            "sentence": "Mrs. Davis is fairly conservative with her investments but is open to considering slightly riskier investments for better returns.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis is fairly conservative with her investments but is open to considering slightly riskier investments for better returns.",
+                    "references": [
+                        21
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis is fairly conservative with her investments but is open to considering slightly riskier investments for better returns.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 19,
+                    "end": 23
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Not really. I expect to continue working and saving at my current rate until I retire.\n**IFA:** It’s good to have stability. Now, let’s discuss your risk tolerance. Are you more inclined towards safer investments, or are you comfortable with higher risks for potentially greater returns?\n**Mrs. Davis:** I’m fairly conservative with my investments. I prefer safer options, but I’m open to considering slightly riskier investments if they can offer better returns.\n**IFA:** A balanced approach can be beneficial. We can look into diversified portfolios that align with your risk tolerance and financial goals. What about your insurance coverage? Do you have life insurance or income protection in place?\n\n\n"
+        }
+    ],
+    "INSURANCE_NEEDS": [
+        {
+            "sentence": "Mrs. Davis has life insurance but no specific income protection.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has life insurance but no specific income protection.",
+                    "references": [
+                        23
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has life insurance but no specific income protection.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 21,
+                    "end": 25
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I’m fairly conservative with my investments. I prefer safer options, but I’m open to considering slightly riskier investments if they can offer better returns.\n**IFA:** A balanced approach can be beneficial. We can look into diversified portfolios that align with your risk tolerance and financial goals. What about your insurance coverage? Do you have life insurance or income protection in place?\n**Mrs. Davis:** I have life insurance but no specific income protection.\n**IFA:** Income protection can be valuable in case you’re unable to work due to illness or injury. It’s worth considering, especially as you approach retirement. Let’s also discuss tax planning. Are you utilizing tax-advantaged accounts like ISAs or pensions?\n\n\n"
+        }
+    ],
+    "TAX_PLANNING": [
+        {
+            "sentence": "Mrs. Davis contributes to a pension and regularly saves in a cash ISA.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis contributes to a pension and has a cash ISA where she saves regularly.",
+                    "references": [
+                        25
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis contributes to a pension and regularly saves in a cash ISA.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 23,
+                    "end": 27
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** I have life insurance but no specific income protection.\n**IFA:** Income protection can be valuable in case you’re unable to work due to illness or injury. It’s worth considering, especially as you approach retirement. Let’s also discuss tax planning. Are you utilizing tax-advantaged accounts like ISAs or pensions?\n**Mrs. Davis:** I contribute to a pension and have a cash ISA where I save regularly.\n**IFA:** That’s excellent. Tax-efficient savings and investment vehicles can provide significant long-term benefits. Have you thought about inheritance tax planning to ensure your wealth is efficiently passed on to your family?\n\n\n"
+        },
+        {
+            "sentence": "Michael mentioned exploring inheritance tax planning strategies for Mrs. Davis, such as setting up trusts or gifting assets during her lifetime.",
+            "raw": [
+                {
+                    "sentence": "Michael mentioned exploring inheritance tax planning strategies such as setting up trusts or gifting assets during Mrs. Davis's lifetime.",
+                    "references": [
+                        28
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Michael mentioned exploring inheritance tax planning strategies for Mrs. Davis, such as setting up trusts or gifting assets during her lifetime.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 26,
+                    "end": 30
+                }
+            ],
+            "citation": "\nSnippet 0:\n**IFA:** That’s excellent. Tax-efficient savings and investment vehicles can provide significant long-term benefits. Have you thought about inheritance tax planning to ensure your wealth is efficiently passed on to your family?\n**Mrs. Davis:** I haven’t given it much thought. I assumed it would just go to my children and grandchildren without much hassle.\n**IFA:** Inheritance tax can significantly impact what your beneficiaries receive. We can explore strategies to mitigate this, such as setting up trusts or gifting assets during your lifetime. Finally, let’s talk about your rental property. Do you plan to keep it as part of your retirement income?\n**Mrs. Davis:** Yes, I plan to keep it. It’s been a good source of income, and I think it will continue to be.\n\n\n"
+        }
+    ],
+    "LIABILITY": [
+        {
+            "sentence": "Mrs. Davis has a student loan that she is still paying off, which is about £200 a month.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis has a student loan that she is still paying off, which is about £200 a month.",
+                    "references": [
+                        13
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis has a student loan that she is still paying off, which is about £200 a month.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Including the mortgage on my home, bills, and living expenses, I spend around £4,500 a month.\n**IFA:** And do you have any outstanding debts, such as loans or credit cards?\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n\n\n"
+        },
+        {
+            "sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "raw": [
+                {
+                    "sentence": "Mrs. Davis pays off her credit card in full each month.",
+                    "references": [
+                        13
+                    ]
+                }
+            ],
+            "is_true": 1,
+            "is_relevant": 1,
+            "truth_updated_sentence": "Mrs. Davis pays off her credit card in full each month.",
+            "explanation": "",
+            "citation_intervals": [
+                {
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "citation": "\nSnippet 0:\n**Mrs. Davis:** Including the mortgage on my home, bills, and living expenses, I spend around £4,500 a month.\n**IFA:** And do you have any outstanding debts, such as loans or credit cards?\n**Mrs. Davis:** I have a student loan that I’m still paying off, which is about £200 a month. Other than that, I pay off my credit card in full each month.\n**IFA:** That’s good to hear. Managing debt effectively is key to financial health. What about your long-term financial goals? Besides retirement, do you have any other plans, such as travel, buying a second home, or supporting family?\n\n\n"
+        }
+    ]
+}
